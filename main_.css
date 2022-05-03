@@ -1,0 +1,63 @@
+:root {
+  --tur: turquoise;
+  --ch: rgb(159, 66, 245);
+  --size_chu_tieu_chuan: 120%;
+}
+/* ctrl + / de ghi comment */
+.box {
+  width: 50%;
+  background: rgb(70, 237, 243);
+  padding: 10px;
+}
+#item:hover {
+  color: rgb(0, 234, 208);
+}
+
+a {
+  color: black;
+  font-size: var(--size_chu_tieu_chuan);
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: none;
+}
+
+img {
+  /* color: rgb(70, 237, 243); */
+  height: 300px;
+  border-radius: 10%;
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+  border-style: dashed;
+  border-width: 1px;
+  border-color: rgb(0, 234, 208);
+  padding: 5px;
+  padding-bottom: 50px;
+  background: wheat;
+  margin: 0px 10px;
+}
+
+#item::selection {
+  color: rgb(47, 49, 50);
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: rgb(70, 237, 243);
+}
+
+#item::after {
+  content: " <3";
+}
+
+ul {
+  font-size: var(--size_chu_tieu_chuan);
+}
+
+h1 {
+  color: var(--tur);
+  font-size: calc(var(--size_chu_tieu_chuan)+20px);
+}
+h2 {
+  font-size: var(--size_chu_tieu_chuan);
+}
+
+/* table {
+} */
